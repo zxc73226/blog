@@ -1,0 +1,316 @@
+/* Welcome to Compass.
+* In this file you should write your main styles. (or centralize your imports)
+* Import this file using the following HTML or equivalent:
+* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url("http://fonts.googleapis.com/earlyaccess/notosanstc.css");
+/* line 5, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/blog.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 13, ../sass/blog.scss */
+html,
+body {
+  width: 100%;
+  font-family: 'Noto Sans TC', sans-serif;
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 21, ../sass/blog.scss */
+html {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* line 25, ../sass/blog.scss */
+#bigbox {
+  width: 940px;
+  margin: 0px auto;
+}
+
+/* line 30, ../sass/blog.scss */
+#header {
+  height: 120px;
+}
+/* line 32, ../sass/blog.scss */
+#header h3 {
+  font-size: 1.5rem;
+  padding: 40px 0px 10px 0px;
+  color: #13E859;
+}
+/* line 36, ../sass/blog.scss */
+#header h3:hover {
+  color: rgba(19, 230, 90, 0.7);
+  cursor: pointer;
+}
+/* line 41, ../sass/blog.scss */
+#header p {
+  font-size: 0.8rem;
+}
+
+/* line 46, ../sass/blog.scss */
+#nav {
+  height: 54px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+/* line 50, ../sass/blog.scss */
+#nav ul {
+  display: flex;
+  flex-direction: row;
+}
+/* line 53, ../sass/blog.scss */
+#nav ul li {
+  font-size: .9rem;
+  height: 54px;
+  padding: 20px 20px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* line 58, ../sass/blog.scss */
+#nav ul li:hover {
+  color: #13E859;
+  cursor: pointer;
+}
+
+/* line 66, ../sass/blog.scss */
+#article {
+  width: 940px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 0px 15px 0px;
+  padding: 0px;
+}
+
+/* line 76, ../sass/blog.scss */
+#section_left {
+  width: 640px;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+/* line 83, ../sass/blog.scss */
+.box {
+  width: 580px;
+  height: 100%;
+  margin: 20px auto 50px auto;
+}
+/* line 87, ../sass/blog.scss */
+.box .focus {
+  width: 580px;
+  height: 108px;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+/* line 94, ../sass/blog.scss */
+.box .focus .focus_left {
+  width: 70px;
+  height: 70px;
+  background-color: #13E859;
+  border-radius: 5%;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+/* line 102, ../sass/blog.scss */
+.box .focus .focus_left h3 {
+  color: white;
+  font-size: 2.3rem;
+  margin-bottom: 8px;
+}
+/* line 107, ../sass/blog.scss */
+.box .focus .focus_left p {
+  font-size: .8rem;
+  color: white;
+}
+/* line 112, ../sass/blog.scss */
+.box .focus .focus_right {
+  margin-left: 20px;
+  width: 460px;
+  height: 107px;
+}
+/* line 116, ../sass/blog.scss */
+.box .focus .focus_right .focustext {
+  font-size: 1.5rem;
+  letter-spacing: 0.8px;
+  line-height: 36px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+/* line 121, ../sass/blog.scss */
+.box .focus .focus_right .focustext:hover {
+  color: #13E859;
+  cursor: pointer;
+}
+/* line 127, ../sass/blog.scss */
+.box .focus .focus_right p {
+  font-size: .9rem;
+  padding: 10px 0px;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* line 132, ../sass/blog.scss */
+.box .focus .focus_right p a:hover {
+  color: #13E859;
+  cursor: pointer;
+}
+/* line 140, ../sass/blog.scss */
+.box .API_part1 {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px;
+}
+/* line 144, ../sass/blog.scss */
+.box .API_part1 .APIbox01 {
+  width: 16px;
+  height: 16px;
+  border: 1px solid black;
+  margin: 0px 4px;
+}
+/* line 151, ../sass/blog.scss */
+.box .API_part2 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
+}
+/* line 155, ../sass/blog.scss */
+.box .API_part2 .APIbox02 {
+  width: 55px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 5%;
+  margin-right: 12px;
+}
+/* line 163, ../sass/blog.scss */
+.box .image {
+  width: 500px;
+  height: 282px;
+  background-image: url("../image/1.jpg");
+}
+/* line 169, ../sass/blog.scss */
+.box .textP p {
+  font-size: 1rem;
+  margin: 16px 0px;
+  line-height: 24px;
+}
+/* line 174, ../sass/blog.scss */
+.box .textP a {
+  font-size: 1.1rem;
+  color: #13E859;
+}
+/* line 177, ../sass/blog.scss */
+.box .textP a:hover {
+  color: rgba(19, 230, 90, 0.7);
+  cursor: pointer;
+}
+/* line 183, ../sass/blog.scss */
+.box .API_part3 {
+  width: 16px;
+  height: 16px;
+  margin: 24px 0px 28px 38px;
+  border: 1px solid black;
+}
+
+/* line 191, ../sass/blog.scss */
+#section_right {
+  width: 280px;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* line 197, ../sass/blog.scss */
+#footer {
+  height: 86px;
+  margin: 15px 0px 0px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 50px;
+  font-size: .9rem;
+  background-color: white;
+}
+/* line 205, ../sass/blog.scss */
+#footer h6 {
+  margin-bottom: 10px;
+}
+/* line 207, ../sass/blog.scss */
+#footer h6 a {
+  color: #13E859;
+  cursor: pointer;
+}
+/* line 212, ../sass/blog.scss */
+#footer p {
+  float: right;
+}
+/* line 214, ../sass/blog.scss */
+#footer p a {
+  color: #13E859;
+  cursor: pointer;
+}
