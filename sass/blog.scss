@@ -47,6 +47,7 @@ html {
   height: 54px;
   border: 1px solid rgba(0, 0, 0, .1);
   background-color: white;
+  box-shadow: 0px 0px 0.5px 0.5px rgba(0, 0, 0, 0.1);
   ul {
     display: flex;
     flex-direction: row;
@@ -78,9 +79,10 @@ html {
   height: 100%;
   border: 1px solid rgba(0, 0, 0, .1);
   background-color: white;
+  box-shadow: 0px 0px 0.5px 0.5px rgba(0, 0, 0, 0.1);
 }
 
-.box {
+.leftbox {
   width: 580px;
   height: 100%;
   margin: 20px auto 50px auto;
@@ -160,10 +162,30 @@ html {
       margin-right: 12px;
     }
   }
-  .image {
+  .image1 {
     width: 500px;
     height: 282px;
     background-image: url('../image/1.jpg');
+  }
+  .image2 {
+    width: 500px;
+    height: 282px;
+    background-image: url('../image/2.jpg');
+  }
+  .image3 {
+    width: 500px;
+    height: 282px;
+    background-image: url('../image/3.jpg');
+  }
+  .image4 {
+    width: 500px;
+    height: 282px;
+    background-image: url('../image/4.jpg');
+  }
+  .image5 {
+    width: 500px;
+    height: 282px;
+    background-image: url('../image/5.jpg');
   }
   .textP {
     p {
@@ -192,6 +214,152 @@ html {
   width: 280px;
   height: 100%;
   border: 1px solid rgba(0, 0, 0, .1);
+  box-shadow: 0px 0px 0.5px 0.5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.rightbox {
+  width: 220px;
+  margin: 20px auto;
+}
+
+#searchbox {
+  width: 220px;
+  height: 35px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  .search {
+    height: 35px;
+    width: 180px;
+    padding: 8px;
+    font-size: 1.1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.right_grid_box {
+  width: 220px;
+  height: 100%;
+  font-size: 1.1rem;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  border-bottom: 1px solid rgba(0, 0, 0, .5);
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+
+.gridbox1 {
+  font-size: 0.95rem;
+  line-height: 24px;
+  margin: 10px 0px;
+  a {
+    height: 24px;
+    margin: 8px 0px;
+    &:hover {
+      color: rgba(19, 230, 90, .7);
+      cursor: pointer;
+    }
+  }
+  .email {
+    width: 158px;
+    height: 21px;
+    background-image: url('../image/6.png')
+  }
+}
+
+.gridbox2 {
+  width: 220px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.imgbox {
+  width: 220px;
+  height: 60px;
+}
+
+.img {
+  width: 59px;
+  height: 59px;
+  float: left;
+  border: 1px solid black;
+  margin: 0px 5px;
+}
+
+.rightbtn {
+  padding: 4px 8px;
+  background-color: rgba(0, 0, 200, .8);
+  color: white;
+  border-color: rgba(0, 200, 0, .5);
+  margin: 8px 4px;
+  border-radius: 5px;
+}
+
+.btn1 {
+  width: 100px;
+  height: 40px;
+}
+
+.btn2 {
+  width: 150px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.Facebook {
+  width: 220px;
+  height: 540px;
+  border: 1px solid rgba(0, 0, 0, .7);
+}
+
+.fbtext {
+  p {
+    font-size: .8rem;
+    a {
+      &:hover {
+        color: rgba(19, 230, 90, .7);
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.gridbox3 {
+  width: 220px;
+  height: 300px;
+}
+
+.gridbox4 {
+  width: 220px;
+  height: 300px;
+}
+
+.gridbox5 {
+  width: 220px;
+  height: 300px;
+}
+
+.gridbox6 {
+  width: 220px;
+  height: 300px;
+}
+
+.gridbox7 {
+  width: 220px;
+  height: 300px;
+}
+
+.gridbox8 {
+  width: 220px;
+  height: 30px;
 }
 
 #footer {
@@ -202,6 +370,7 @@ html {
   margin-bottom: 50px;
   font-size: .9rem;
   background-color: white;
+  box-shadow: 0px 0px 0.5px 0.5px rgba(0, 0, 0, 0.1);
   h6 {
     margin-bottom: 10px;
     a {
